@@ -1,66 +1,25 @@
-# HANDOFF.md
-
-A **generated summary** of `MEMORY.md` — think GitHub Pull Request summary, not a full changelog. Distilled, not copied. Lets a fresh agent session reorient in seconds without reading the full log.
-
-Regenerate this at every lesson boundary by re-deriving it from `MEMORY.md`. Do not hand-maintain it separately, or it will drift out of sync with the real log.
-
-Keep it short. Never huge. Always fully regenerated (not appended to).
-
-## Format
-
-```
-SUMMARY AS OF: [date/lesson]
+SUMMARY AS OF: Lesson 01 / session 1
 
 Current lesson
-[name]
+Lesson 02 — Object
 
 Mastery
-[Passed / Pending retry / In progress]
+Passed
 
 Trend
-[Improving / Steady / Struggling with X]
+Improving — the student noticed the repetition in the procedural example and connected it to scaling pain.
 
 Student profile — current
-[1-2 lines]
+Strong at observation and prediction; needs a little help turning an observation into a crisp takeaway.
 
 Student profile — previous
-[1-2 lines, for comparison]
+No prior lesson data before Lesson 01.
 
 Do not repeat
-[teaching approaches already logged as not working, pulled from DECISIONS.md / MEMORY.md]
+Starting with abstract definitions before the student has felt the problem.
 
 Next lesson
-[name]
+Lesson 02 — Object
 
 Full history → see MEMORY.md
 Teaching decisions → see DECISIONS.md
-```
-
----
-
-## Current handoff
-
-```
-SUMMARY AS OF: not yet started
-
-Current lesson
-None — project initialized, no lessons taught yet
-
-Mastery
-N/A
-
-Trend
-N/A — no data yet
-
-Student profile — current
-Unknown, no lessons completed yet
-
-Student profile — previous
-N/A
-
-Do not repeat
-Nothing logged yet
-
-Next lesson
-Lesson 01 — Why OOP exists
-```

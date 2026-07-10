@@ -30,9 +30,19 @@ STUDENT PROFILE (this entry):
   - Compared to previous entry: n/a (first entry)
 NEXT ACTION: Begin Lesson 01 — "Why OOP exists"
 
+## [Lesson 01] — Why OOP exists — session 1
+STATUS: mastered
+WHAT HAPPENED: The student observed a procedural example with separate dog variables and helper functions, then correctly identified that the repetition becomes painful as more dogs are added.
+MISTAKES: Initial reflection focused on the manual repetition but needed a small nudge to phrase the core pain more clearly.
+STUDENT PROFILE (this entry):
+  - Strengths shown this lesson: noticed repetition, correctly predicted the effect of adding a third dog, and connected the example to future pain in scaling.
+  - Weaknesses shown this lesson: needs a little help turning observations into a crisp one-sentence takeaway.
+  - Compared to previous entry: improved on observation and prediction
+NEXT ACTION: Begin Lesson 02 — "Object"
+
 ---
 
 CURRENT STATE (rewritten each entry — always reflects latest only)
-- Current lesson: none started
+- Current lesson: lesson02 — Object
 - Progress: 0% (0 of 4 pillars reached)
 - Points to the most recent entry above for full context

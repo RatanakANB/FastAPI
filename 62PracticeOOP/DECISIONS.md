@@ -27,3 +27,11 @@ Project just initialized — no teaching decisions made yet.
 
 ------
 ```
+
+Decision
+Started Lesson 01 with a procedural dog example instead of a class example.
+
+Reason
+The student needed to feel the repetition and manual state management first so the motivation for OOP would be concrete before introducing any pillar.
+
+------
