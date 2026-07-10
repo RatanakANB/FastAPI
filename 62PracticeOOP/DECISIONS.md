@@ -43,3 +43,11 @@ Reason
 The student learns better by reading, predicting, and typing their own code first, then comparing against a reference after the idea has had time to land.
 
 ------
+
+Decision
+Reconciled the "wording-only then full code near the end" approach with a stricter spec-only approach: locked in a merged policy where no code or reference solution is shown at all while the student is writing, and the full reference solution is revealed exactly once — after the student has executed their own code and reported the observation, not just "near the end" of the lesson.
+
+Reason
+"Wording-only, then reveal near the end" didn't specify *when* near the end, which risked the reveal happening before the student had actually run and self-checked their own code. Tying the reveal to right after Execute/Observe keeps the real-attempt discipline (no peeking at a solution before trying) while preserving the worked-example comparison the student found useful in Lesson 01.
+
+------
