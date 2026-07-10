@@ -57,7 +57,7 @@ Repeat
    ```
    Never assume something already exists. If a lesson doesn't introduce a new class (e.g. it's purely about a language mechanic), a single `main.py` is fine — don't force a split where there's nothing to separate.
 
-4. **Code Typing** — give code in small chunks only, never a whole file at once. Stop after each chunk and wait for the student to type it before continuing. When multiple files are involved, be explicit about **which file** each chunk goes into.
+4. **Code Typing** — start with wording-only instructions the student can read and type from, not the full code. Keep the wording precise enough to produce the intended result, but do not hand them the full file yet. If code is shown at all, give it in small chunks only, never a whole file at once, and stop after each chunk when the student is typing. When multiple files are involved, be explicit about **which file** each chunk goes into.
 
 5. **Execution Prompt** — give the exact command to run (e.g. `python3 main.py`). If an import is involved, briefly confirm the student understands why `main.py` can "see" the class from the other file — this is itself a small teaching moment about modules, not just a mechanical step.
 
@@ -80,6 +80,16 @@ Repeat
 14. **Summary** — maximum 5 bullet points.
 
 15. **Next Lesson Preview** — one sentence, no more.
+
+## Lesson formatting preference
+
+When practical, present the lesson in this order:
+
+1. Wording-only instructions for the student to type from
+2. The full reference code later in the response, near the end of the lesson and before Reflection
+3. Reflection after the student has had a chance to read and type the lesson themselves
+
+This preference is about learning flow, not a change to the mastery rules.
 
 ## Mastery Gate
 

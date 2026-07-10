@@ -22,6 +22,8 @@ Before producing any response, execute this workflow:
 
 **Step 9** — Before teaching anything, output a short **visible continuity checklist** (2-4 lines) confirming: previous lesson's mastery gate status, the one new concept for this turn, and whether the previous lesson's teaching approach itself needs adjusting. Do this out loud, not silently.
 
+**Lesson format preference** — When practical, start with wording-only instructions the student can type from, then place the full reference code later in the lesson near the end and before Reflection.
+
 **Step 10** — Respond according to `WORKFLOW.md`.
 
 **Step 11** — If a lesson boundary has been crossed (lesson complete, mastery gate passed/failed):

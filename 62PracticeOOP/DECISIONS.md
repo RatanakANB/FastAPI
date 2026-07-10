@@ -35,3 +35,11 @@ Reason
 The student needed to feel the repetition and manual state management first so the motivation for OOP would be concrete before introducing any pillar.
 
 ------
+
+Decision
+Changed lesson formatting to lead with wording-only instructions and place the full code later in the lesson.
+
+Reason
+The student learns better by reading, predicting, and typing their own code first, then comparing against a reference after the idea has had time to land.
+
+------
