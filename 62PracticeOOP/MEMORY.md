@@ -70,9 +70,19 @@ STUDENT PROFILE (this entry):
   - Compared to previous entry: Improved on attention to detail; wrote clean, error-free code.
 NEXT ACTION: Begin Lesson 05 — "Method"
 
+## [Lesson 05] — Method — 2026-07-11/session 2
+STATUS: in-progress
+WHAT HAPPENED: Lesson started. Defined a method without self, instantiated, and ran it. Student observed the TypeError. Paused here at student request before the Experiment step; student has not yet read/digested the Explanation/Discussion or done the Experiment.
+MISTAKES: None.
+STUDENT PROFILE (this entry):
+  - Strengths shown this lesson: Good prediction of errors.
+  - Weaknesses shown this lesson: None.
+  - Compared to previous entry: Steady progress.
+NEXT ACTION: Resume Lesson 05 — Method (read the Explanation / Discussion, and execute the Experiment step)
+
 ---
 
 CURRENT STATE (rewritten each entry — always reflects latest only)
-- Current lesson: lesson05 — Method
+- Current lesson: lesson05 — Method (in-progress, paused before Experiment)
 - Progress: 0% (0 of 4 pillars reached)
 - Points to the most recent entry above for full context

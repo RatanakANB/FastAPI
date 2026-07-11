@@ -1,25 +1,25 @@
-SUMMARY AS OF: Lesson 04 / session 2
+SUMMARY AS OF: Lesson 05 / session 2 (paused mid-lesson)
 
 Current lesson
-Lesson 05 — Method
+Lesson 05 — Method (in-progress)
 
 Mastery
-Passed
+In-progress (paused at student request before Experiment and Explanation/Discussion digestion)
 
 Trend
-Improving — the student writes clean, error-free code and has mastered dynamic attribute assignment, understanding that attributes are specific to each instance.
+Steady — student predicted instance method errors correctly.
 
 Student profile — current
-Understood dynamic attribute binding, instance-specific state, and successfully used `hasattr()`. Demonstrated clean, error-free code implementation.
+Good prediction of errors; paused mid-lesson to resume later.
 
 Student profile — previous
-Understood importing and instantiating custom classes very quickly. Easily self-corrected a minor comparison logic error after one hint.
+Understood dynamic attribute binding, instance-specific state, and successfully used `hasattr()`. Demonstrated clean, error-free code implementation.
 
 Do not repeat
 Starting with abstract definitions before the student has felt the problem.
 
 Next lesson
-Lesson 05 — Method
+Resume Lesson 05 — Method (read the Explanation / Discussion, and execute the Experiment step)
 
 Full history → see MEMORY.md
 Teaching decisions → see DECISIONS.md
