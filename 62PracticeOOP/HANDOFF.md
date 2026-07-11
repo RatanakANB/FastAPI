@@ -1,25 +1,25 @@
-SUMMARY AS OF: Lesson 01 / session 1
+SUMMARY AS OF: Lesson 03 / session 2
 
 Current lesson
-Lesson 02 — Object
+Lesson 04 — Attribute
 
 Mastery
 Passed
 
 Trend
-Improving — the student noticed the repetition in the procedural example and connected it to scaling pain.
+Improving — the student is highly responsive to hints and immediately grasps custom types, instantiation, and class imports.
 
 Student profile — current
-Strong at observation and prediction; needs a little help turning an observation into a crisp takeaway.
+Understood importing and instantiating custom classes very quickly. Easily self-corrected a minor comparison logic error after one hint.
 
 Student profile — previous
-No prior lesson data before Lesson 01.
+Good intuition with list/dict references; benefited from concrete boxes-and-sticky-notes analogy to understand variable reference vs. object identity.
 
 Do not repeat
 Starting with abstract definitions before the student has felt the problem.
 
 Next lesson
-Lesson 02 — Object
+Lesson 04 — Attribute
 
 Full history → see MEMORY.md
 Teaching decisions → see DECISIONS.md

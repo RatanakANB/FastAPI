@@ -51,3 +51,11 @@ Reason
 "Wording-only, then reveal near the end" didn't specify *when* near the end, which risked the reveal happening before the student had actually run and self-checked their own code. Tying the reveal to right after Execute/Observe keeps the real-attempt discipline (no peeking at a solution before trying) while preserving the worked-example comparison the student found useful in Lesson 01.
 
 ------
+
+Decision
+Taught the "Object" concept using built-in Python collections (lists and dicts) and a "sticky notes vs. boxes" analogy.
+
+Reason
+By using familiar built-in structures first, the student was able to isolate and understand object identity, mutable state, and built-in behavior (methods) before adding the syntactic complexity of defining custom classes. The sticky-note analogy resolved confusion about variables vs. objects.
+
+------

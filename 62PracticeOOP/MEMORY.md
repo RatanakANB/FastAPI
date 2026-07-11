@@ -40,9 +40,29 @@ STUDENT PROFILE (this entry):
   - Compared to previous entry: improved on observation and prediction
 NEXT ACTION: Begin Lesson 02 — "Object"
 
+## [Lesson 02] — Object — 2026-07-11/session 2
+STATUS: mastered
+WHAT HAPPENED: Explained what an object is in Python using lists and dicts. The student successfully completed the challenge showing two variables referring to the same object vs. a new object, and correctly predicted/observed the behavior.
+MISTAKES: None.
+STUDENT PROFILE (this entry):
+  - Strengths shown this lesson: Good intuition with list/dict references and understood the difference between content equality and object identity.
+  - Weaknesses shown this lesson: Needed a visual analogy to conceptualize the exact distinction between a variable (reference) and an object in memory.
+  - Compared to previous entry: Same level of strong prediction/observation skills.
+NEXT ACTION: Begin Lesson 03 — "Class"
+
+## [Lesson 03] — Class — 2026-07-11/session 2
+STATUS: mastered
+WHAT HAPPENED: Taught the concept of a Class as a blueprint. The student defined custom classes Dog and Cat, instantiated them, checked their custom types, and compared them. The student self-corrected a minor typo in the challenge after one guided hint.
+MISTAKES: In the challenge, compared instances directly (`my_dog == my_cat`) instead of their types, but self-corrected immediately.
+STUDENT PROFILE (this entry):
+  - Strengths shown this lesson: Understood importing and instantiation easily. Quick to self-correct.
+  - Weaknesses shown this lesson: Minor syntax/requirement oversight (comparing objects instead of types) but immediately understood the difference.
+  - Compared to previous entry: Improved on code adjustment and responding to feedback.
+NEXT ACTION: Begin Lesson 04 — "Attribute"
+
 ---
 
 CURRENT STATE (rewritten each entry — always reflects latest only)
-- Current lesson: lesson02 — Object
+- Current lesson: lesson04 — Attribute
 - Progress: 0% (0 of 4 pillars reached)
 - Points to the most recent entry above for full context
