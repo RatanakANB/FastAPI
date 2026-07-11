@@ -60,9 +60,19 @@ STUDENT PROFILE (this entry):
   - Compared to previous entry: Improved on code adjustment and responding to feedback.
 NEXT ACTION: Begin Lesson 04 — "Attribute"
 
+## [Lesson 04] — Attribute — 2026-07-11/session 2
+STATUS: mastered
+WHAT HAPPENED: Taught that attributes hold instance-specific data. The student created objects, dynamically bound attributes from outside, and verified presence using `hasattr()`. Correctly predicted the AttributeError for unset attributes.
+MISTAKES: None.
+STUDENT PROFILE (this entry):
+  - Strengths shown this lesson: Understood dynamic attribute binding and used `hasattr()` correctly. Good grasp of AttributeError concept.
+  - Weaknesses shown this lesson: None.
+  - Compared to previous entry: Improved on attention to detail; wrote clean, error-free code.
+NEXT ACTION: Begin Lesson 05 — "Method"
+
 ---
 
 CURRENT STATE (rewritten each entry — always reflects latest only)
-- Current lesson: lesson04 — Attribute
+- Current lesson: lesson05 — Method
 - Progress: 0% (0 of 4 pillars reached)
 - Points to the most recent entry above for full context
