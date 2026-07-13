@@ -29,9 +29,9 @@ def setup_swagger_reload(app: FastAPI):
 
     @app.get("/docs", include_in_schema=False)
     async def custom_swagger_ui_html() -> HTMLResponse:
-        # Get the standard Swagger UI HTML
+        # Get the standard Swagger UI HTML with cache-busted openapi_url
         response = get_swagger_ui_html(
-            openapi_url=app.openapi_url,
+            openapi_url=f"{app.openapi_url}?t={SERVER_ID}" if app.openapi_url else None,
             title=app.title + " - Swagger UI",
             oauth2_redirect_url=app.swagger_ui_oauth2_redirect_url,
         )

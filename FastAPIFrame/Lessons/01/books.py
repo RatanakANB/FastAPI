@@ -5,7 +5,7 @@
 # === Tunr of defual docs route ===
 from fastapi import Body, FastAPI
 from swaggerReload import setup_swagger_reload
-app = FastAPI(docs_url=None)
+app = FastAPI(docs_url=None, )
 setup_swagger_reload(app)
 # =================================
 
