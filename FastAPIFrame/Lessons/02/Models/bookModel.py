@@ -45,6 +45,7 @@ class bookRequest(BaseModel):
     model_config = {
         "json_schema_extra":{
             "example" : {
+                'id': 99,
                 'title': 'A new book',
                 'author': 'codingwithroby',
                 'description': 'A new description of a book',

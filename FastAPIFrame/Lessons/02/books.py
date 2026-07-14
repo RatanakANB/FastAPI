@@ -7,7 +7,7 @@
 # === Tunr of defual docs route ===
 from fastapi import FastAPI
 
-from Routes.bookRoutes import router as book_router
+from Routes.bookRoutes import routerBook as book_router
 from swaggerReload import setup_swagger_reload
 
 app = FastAPI(docs_url=None)
