@@ -11,22 +11,25 @@ class Book:
     author: str
     description: str
     rating: int
+    published_date: int
     
-    def __init__(self, id, author, title, description, rating):
+    def __init__(self, id, title, author, description, rating, published_date):
         """Initialize a book instance.
 
         Args:
             id: Unique identifier for the book.
-            author: Author name.
             title: Book title.
+            author: Author name.
             description: Short book description.
             rating: Book rating.
+            published_date: date 2029
         """
         self.id = id
         self.title = title
         self.author = author
         self.description = description
         self.rating = rating
+        self.published_date = published_date
 
 class bookRequest(BaseModel):
     """Validate incoming book payloads for create requests."""
@@ -41,6 +44,7 @@ class bookRequest(BaseModel):
         ,"idk"],
     )
     rating: int = Field(gt=-1, lt=6)
+    published_date: int = Field(gt= 1300, lt= 2026)
     
     model_config = {
         "json_schema_extra":{
@@ -49,7 +53,9 @@ class bookRequest(BaseModel):
                 'title': 'A new book',
                 'author': 'codingwithroby',
                 'description': 'A new description of a book',
-                'rating': 5
+                'rating': 5,
+                'published_date': 2012
+                
             }
         }
     }

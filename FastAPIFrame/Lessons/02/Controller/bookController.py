@@ -12,6 +12,12 @@ def get_all_book():
     """
     return bookDatas
 
+def read_book_by_published_date(published_date):
+    books_to_return = []
+    for book in bookDatas:
+        if book.published_date == published_date:
+            books_to_return.append(book)
+    return books_to_return
 
 def bookreq(book_request):
     """Create a new book and add it to the shared collection.
@@ -26,7 +32,6 @@ def bookreq(book_request):
     new_book = find_book_id(new_book)
     bookDatas.append(new_book)
     return new_book
-
 
 def find_book_id(book: Book):
     """Assign the next sequential ID to a new book.
@@ -61,10 +66,10 @@ def put_book_by_id(book_request):
             bookDatas[i].author = book_request.author
             bookDatas[i].description = book_request.description
             bookDatas[i].rating = book_request.rating
+            bookDatas[i].published_date = book_request.published_date
             return bookDatas[i]
     
     return None
-
 
 def delete_book_by_id(book_id):
     for i in range(len(bookDatas)):
