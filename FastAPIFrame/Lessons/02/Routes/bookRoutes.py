@@ -1,6 +1,6 @@
 """HTTP routes for the lesson 02 book API."""
 
-from fastapi import APIRouter, HTTPException, Path
+from fastapi import APIRouter, HTTPException, Path, Query
 
 from Controller.bookController import put_book_by_id, \
                                     get_book_by_rating, \
@@ -40,8 +40,8 @@ async def get_book_publish_date(published_date: int):
     books = read_book_by_published_date(published_date)
     return books
 
-@routerBook.get("/rating/{book_rating}")
-async def get_book_rating(book_rating: int):
+@routerBook.get("/rating/")
+async def get_book_rating(book_rating: int = Query(gt=0, lt=6)):
 	book = get_book_by_rating(book_rating)
 	if not book:
 		raise HTTPException(status_code=404, detail="No books found for this rating")
